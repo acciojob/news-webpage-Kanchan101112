@@ -5,9 +5,97 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		body{
+			background-color: #f5f5f5;
+			margin: 0;
+  padding: 0;
+		}
+		.header{
+     padding: 10px;
+	 text-align: center;
+    padding: 20px;
+			background-color:#011e29;
+			color: white;
+			font-family: sans-serif;
+	}
+		
+  .latest-news-section{
+            border: 1px solid #ddd; 
+            border-radius: 20px;
+	        margin: 0px 10px 0px px;
+	       background-color: white;
+	  border: none;
+	  width: 30%;
+            padding: 10px;
+  }
+		.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
 
+		 .latest-news-section li{
+			 text-align: center;
+			 
+		 }
+		.latest-news-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+		.main-articles-section{
+			  border: 1px solid #ddd; 
+            border-radius: 20px;
+			 background-color: white;
+			 border: none;
+            padding: 10px;
+  }
+		.pictorial-news-section{
+			  border: 1px solid #ddd; 
+            border-radius: 20px;
+			 background-color: white;
+			border: none;
+			width: 30%;
+           padding: 10px;
+          margin-bottom: 10px;
+
+		}.pictorial-news-section img{
+			object-fit: cover;
+			height: auto;
+			max-width: 100%;
+		}
+		.content{
+ display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+		}
+	
+	</style>
+	
 <body>
 	<!-- the entire body must be written by student -->
+	  <div class="container">
+
+	<div class="header">
+		<h1>Shaw's News</h1></div>
+  <div class="content"><div class="latest-news-section">
+			<h3>Latest News Articles</h3>
+			<ul>
+				<li>Article 1</li>
+				<li>Article 2</li>
+				<li>Article 3</li>
+			</ul></div>
+				<div class="main-articles-section">
+					<h2>Main Article</h2>
+       <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+		<div class="pictorial-news-section">
+         	<h3>Pictorial News</h3>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg">
+       <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG">
+		<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG">	
+		</div></div></div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
